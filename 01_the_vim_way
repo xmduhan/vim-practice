@@ -1,0 +1,12 @@
+[为以下每行代码添加";"]
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
+
+[在"+"两端增加空格]
+var foo = "method("+argument1+","+argument2+")";
+
+[替换第1个和第3个"content"为"copy"]
+...We're waiting for copy before the site can go live...
+...If you are content with this, let's go ahead with it...
+...We'll launch as soon as we have the copy...
