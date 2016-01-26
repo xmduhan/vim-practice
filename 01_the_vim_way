@@ -10,3 +10,27 @@ var foo = "method("+argument1+","+argument2+")";
 ...We're waiting for copy before the site can go live...
 ...If you are content with this, let's go ahead with it...
 ...We'll launch as soon as we have the copy...
+
+[随时做计算]
+6 chair, each costing $35, totals $?
+
+[输入特殊字符]
+<C-v>u00bf
+u00bf=¿
+
+[按v进入选择模式]
+b 向前
+e 向后(单词尾)
+w 向后(单词首字母)
+select from here to here
+
+[将one,two,three改为大写]
+vit 可以选中标签中的内容
+gUit 可以使标签中的内容变为大写
+guit 小写
+gUw 单词大写
+<a href="#">one</a>
+<a href="#">two</a>
+<a href="#">three</a>
+
+
