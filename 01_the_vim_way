@@ -55,5 +55,17 @@ Insert mode   |  31
 Visula mode   |  44
 
 
+[修改images为components]
+<C-v>jje c componets <Esc>
+li.one   a{ backgroud-image: url('/images/sprite.png'); }
+li.two   a{ backgroud-image: url('/images/sprite.png'); }
+li.three a{ backgroud-image: url('/images/sprite.png'); }
+
+
+[使用列模式为代码结尾增加;]
+<C-v>2j $A; <Esc>
+var foo = 1
+var bar = 'a'
+var foobar = foo + bar
 
 
