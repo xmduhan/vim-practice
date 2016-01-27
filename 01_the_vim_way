@@ -11,9 +11,6 @@ var foo = "method("+argument1+","+argument2+")";
 ...If you are content with this, let's go ahead with it...
 ...We'll launch as soon as we have the copy...
 
-[随时做计算]
-6 chair, each costing $35, totals $?
-
 [输入特殊字符]
 <C-v>u00bf
 u00bf=¿
@@ -67,5 +64,9 @@ li.three a{ backgroud-image: url('/images/sprite.png'); }
 var foo = 1
 var bar = 'a'
 var foobar = foo + bar
+
+[使用表达式工具填写计算以下算式]
+<C-r>= 123*456-789
+123*456-789=
 
 
