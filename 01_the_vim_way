@@ -71,6 +71,7 @@ var foobar = foo + bar
 
 [使用命令模式为代码结尾增加;]
 A;<Esc> j<C-v>3j :'<,'>normal .
+<C-v>4j :'<,'>normal A;
 int a = 1
 int aa = 1
 int aaa = 1
