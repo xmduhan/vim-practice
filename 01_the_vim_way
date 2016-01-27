@@ -40,3 +40,20 @@ This is a sentence. This is another sentence.
 [将引号"中的内容改为大写]
 A gUa" ....
 ["a", "b", "c", "d"]
+
+[增加表格线]
+<C-v>3j x... gv r| yyp Vr-
+Chapter             Page
+Normal mode         15
+Insert mode         31
+Visula mode         44
+
+Chapter       |  Page
+---------------------
+Normal mode   |  15
+Insert mode   |  31
+Visula mode   |  44
+
+
+
+
